@@ -24,7 +24,7 @@ with open(path + 'horario.txt') as csvfile:
             
             while hora<=23:
                 if row[desp+2*hora+1] == 'V':
-                    vs.append(row[desp+2*hora])
+                    vs.append(row[desp+2*hora]) 
                     horas.append(hora)
                 hora = hora + 1
 
