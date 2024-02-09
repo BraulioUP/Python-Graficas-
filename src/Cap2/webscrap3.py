@@ -29,4 +29,4 @@ for anuncio in anuncios:
     except Exception as e:
         print("Error extrayendo datos de un anuncio:", e)
 
-driver.quit()
+driver.quit() 
