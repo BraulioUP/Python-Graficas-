@@ -99,10 +99,9 @@ scheduler = get_linear_schedule_with_warmup(optimizer,
 
 def format_time(elapsed):
     return str(datetime.timedelta(seconds=int(round((elapsed)))))
-  
-  
-  
-  
+
+
+
 total_t0 = time.time()
 
 model = model.to(device)
